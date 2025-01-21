@@ -1,0 +1,22 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    background-color: #F8F8F8;
+} 
+
+.screenonly{
+    text-decoration: none;
+    color: #73A330;
+    
+}
+
+.notactive {
+  color: #73A330;
+  /* text-decoration: none; */
+
+}

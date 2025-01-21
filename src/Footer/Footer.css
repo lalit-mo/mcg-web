@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+    padding: 20px;
+  }
+  
+  .sb__footer {
+    width: 100%;
+  }
+  
+  .sb__footer-links {
+    width: 100%;
+  }
+  
+  .sb-nabi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sb__footer-below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sb__footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-img {
+    max-width: 100px; /* Set the maximum width */
+    max-height: 100px; /* Set the maximum height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some space to the right of the logo */
+  }
+  
+  .sb__footer-text {
+    text-align: left; /* Align text to the left */
+  }

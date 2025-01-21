@@ -1,0 +1,41 @@
+
+.Pnavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    background-color: #73A330;
+    padding: 20px;
+    margin-top: 5%;
+    
+} 
+
+.screenonly{
+    text-decoration: none;
+    
+}
+
+.notactive {
+  color: #73A330;
+  text-decoration: none;
+
+}
+
+.Pmiddle-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-decoration: none;
+}
+
+.Pmidnav .notactive{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Pmidnav .active{
+    color: #ffffff;
+}
+

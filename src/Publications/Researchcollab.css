@@ -1,0 +1,61 @@
+.main-collab-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add space between items */
+}
+
+.researchHead-pub {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+    color: #1D133E;
+    font-family: NRegular;
+}
+
+.collab-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: center;
+    flex: 1 1 140px; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 140px; /* Ensure a maximum width */
+}
+
+.collab-logo {
+    width: 100%; /* Make the logo responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Center the logo */
+}
+
+.collab-p {
+    margin-top: 10px; /* Add space above the text */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Funding Section */
+.funding-container {
+    background-color: white; /* Set background color to white */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+.funding-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add space between items */
+}
+
+.funding-logo {
+    width: 150px; /* Set a fixed width for the logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0px 20px; /* Add space between logo and text */
+    padding-left: 40px;
+}
+
+.funding-text {
+    font-size: 1.2rem;
+    color: #333; /* Set text color */
+}

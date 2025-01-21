@@ -1,0 +1,7 @@
+.Nmiddle-nav{
+    display: flex;
+    justify-content: start;
+    margin-left: 10%;
+    margin-top: -10%;
+    font-size: 29px;
+}

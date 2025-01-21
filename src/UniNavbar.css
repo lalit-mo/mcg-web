@@ -1,0 +1,38 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    
+} 
+
+.screenonly{
+    text-decoration: none;
+    
+}
+
+.notactive {
+  color: #73A330;
+  text-decoration: none;
+
+}
+
+.middle-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.midnav .notactive{
+    text-decoration: none;
+    color: #73A330;
+}
+
+.midnav .active{
+    color: #73A330;
+}
+

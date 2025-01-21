@@ -1,0 +1,566 @@
+
+.teamcards {
+    /* box-sizing: border-box; */
+    font-family: Gilroy-Regular;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+
+
+.dp {
+    width: 1000vh;
+    border-radius: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    object-fit: cover;
+    
+    
+}
+.alum-mem{
+    margin-left: 5%;
+    /* display: flex; */
+    justify-content: space-between;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.alum-head{
+    font-family: MEB;
+    font-size: 40px;
+    margin-left: 5%;
+    
+}
+
+.alumni-dp{
+    width: 9%;
+    /* height: 17vh; */
+    border-radius: 50%;
+}
+
+.alumni-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    
+}
+
+.alum-info{
+    margin-left: 3%;
+}
+
+.alumn-name{
+    font-family: MM;
+    font-size: 24px;
+}
+
+
+
+
+
+.profileCard {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    /* background: #e61c1c; */
+    padding: 15px;
+    /* border-radius: 100vh; */
+    box-shadow: 0 0 4px #D4EEAF;
+    transition: .6s;
+    padding-bottom: 80px;
+    margin-bottom: 15vh;
+    /* margin-right: 100px; */
+    border-radius: 10px;
+    height: 360px !important;
+    width: 400px !important;
+    height: fit-content;
+    border: 3px solid transparent;
+    /* background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(125deg, #F07167, #F6C634) border-box; */
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+.profileCard .dp{
+    /* position: relative; */
+    width: 1800vh;
+    height: 1800vh;
+    
+    /* transition: .6s; */
+}
+
+.prodp .dp{
+    width: 150px;
+    height: 150px;
+    border-radius: 900%;
+    box-shadow: 0 0 22px rgba(9, 148, 44, 0.4)209, 169, 169, 0.4;
+    transition: .6s;
+
+}
+
+
+.profileCard .dp {
+    border-radius: 950px;
+    
+    /* transform: translateY(-60px); */
+
+}
+
+
+
+.caption {
+    text-align: center;
+    transform: translate(100px, -150px);
+    opacity: 0;
+
+}
+.profname{
+    font-family: "MB";
+}
+
+
+
+.intro {
+    opacity: 0;
+    margin-top: -90px;
+    font-family: "MR";
+    font-size: 15px;
+
+}
+
+.caption {
+    display: none;
+}
+
+.intro {
+    opacity: 1;
+}
+
+.caption {
+    opacity: 1;
+    display: block;
+}
+
+
+
+.profdesignemail {
+    color: #608930;
+}
+
+.caption .profdesign {
+    margin: 2px 0 6px 0;
+}
+
+
+.links-out{
+    position: relative;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    {
+        /* display: none; */
+        width: 100%;
+        padding: 5%;
+    }
+
+    .prodp .dp,
+    .prodp .dpsw {
+        width: 190px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 0 22px rgba(0, 69, 188, 0.4)209, 169, 169, 0.4;
+        transition: .6s;
+
+    }
+
+    .teamcards {
+        font-family: Gilroy-Regular;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 60px;
+        margin-top: 8%;
+    }
+
+    .profileCard,
+    .profileCard:hover {
+        border-radius: 10px;
+        width: 400px !important;
+        height: 350px;
+        border: 3px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(125deg, #F07167, #F6C634) border-box;
+        border-radius: 20px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        transform: translateY(-60px);
+    }
+
+    .caption {
+        display: block;
+        text-align: center;
+        transform: translate(100px, -150px);
+        opacity: 1;
+
+    }
+
+    .intro {
+        opacity: 1;
+        margin-top: -80px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        border-radius: 10px;
+    }
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        border-radius: 10px;
+    }
+
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        transform: translateY(-60px);
+    }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    #force {
+        /* display: none; */
+        width: 100%;
+        padding: 5%;
+        margin-top: 3em;
+    }
+
+    .forceofN {
+        text-align: center;
+        font-family: Gilroy-Bold;
+        font-size: 36px;
+    }
+
+    .pfn {
+        text-align: center;
+        font-family: Gilroy-Regular;
+        font-size: 19px;
+        width: 95%;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .teamcards {
+        font-family: Gilroy-Regular;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 60px;
+        margin-top: 8%;
+    }
+
+    .profileCard,
+    .profileCard:hover {
+        border-radius: 10px;
+        width: 400px !important;
+        height: 350px;
+        margin: auto;
+        border: 3px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(125deg, #F07167, #F6C634) border-box;
+        border-radius: 20px;
+        margin-top: 6%;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        transform: translateY(-60px);
+    }
+
+    .caption {
+        text-align: center;
+        transform: translate(100px, -150px);
+        opacity: 1;
+
+    }
+
+    .intro {
+        opacity: 1;
+        margin-top: -80px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        border-radius: 10px;
+    }
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        border-radius: 10px;
+    }
+
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        transform: translateY(-60px);
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    #force {
+        /* display: none; */
+        width: 100%;
+        padding: 5%;
+        margin-top: 4em;
+    }
+
+    .forceofN {
+        text-align: center;
+        font-family: Gilroy-Bold;
+        font-size: 36px;
+    }
+
+    .pfn {
+        text-align: center;
+        font-family: Gilroy-Regular;
+        font-size: 19px;
+        width: 95%;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .teamcards {
+        font-family: Gilroy-Regular;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 60px;
+        margin-top: 8%;
+    }
+
+    .profileCard,
+    .profileCard:hover {
+        border-radius: 10px;
+        width: 400px !important;
+        height: 350px;
+        margin: auto;
+        border: 3px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(125deg, #F07167, #F6C634) border-box;
+        border-radius: 20px;
+        margin-top: 6%;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        transform: translateY(-60px);
+        width: 160px;
+        height: 160px;
+    }
+
+    .caption {
+        text-align: center;
+        transform: translate(100px, -150px);
+        opacity: 1;
+
+    }
+
+    .intro {
+        opacity: 1;
+        margin-top: -80px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        border-radius: 10px;
+    }
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        border-radius: 10px;
+    }
+
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        transform: translateY(-60px);
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #force {
+
+        width: 100vw;
+        padding: 5%;
+
+        margin-top: 4em;
+    }
+
+    .teamcards {
+        font-family: Gilroy-Regular;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 60px;
+        margin-top: 8%;
+    }
+
+    .profileCard,
+    .profileCard:hover {
+        border-radius: 10px;
+        width: 98% !important;
+        height: fit-content;
+        padding-bottom: 3%;
+        margin: auto;
+        border: 3px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(125deg, #F07167, #F6C634) border-box;
+        border-radius: 20px;
+        margin-top: 6%;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        transform: translateY(-60px);
+
+    }
+
+    .caption {
+        text-align: center;
+        position: relative;
+        opacity: 1;
+        font-size: 14px;
+        width: 40%;
+        right: -30%;
+    }
+
+    .intro {
+        opacity: 1;
+        margin-top: -80px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        border-radius: 10px;
+    }
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        border-radius: 10px;
+    }
+
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        transform: translateY(-60px);
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    #force {
+
+        width: 100vw;
+        padding: 5%;
+
+        margin-top: 4em;
+    }
+
+    .teamcards {
+        font-family: Gilroy-Regular;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 60px;
+        margin-top: 8%;
+    }
+
+    .profileCard,
+    .profileCard:hover {
+        border-radius: 10px;
+        width: 98% !important;
+        height: fit-content;
+        padding-bottom: 3%;
+        margin: auto;
+        border: 3px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(125deg, #F07167, #F6C634) border-box;
+        border-radius: 20px;
+        margin-top: 6%;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        transform: translateY(-60px);
+    }
+
+    .caption {
+        text-align: center;
+        position: relative;
+        opacity: 1;
+        font-size: 14px;
+        width: 40%;
+        right: -30%;
+    }
+
+    .intro {
+        opacity: 1;
+        margin-top: -80px;
+    }
+
+    .profileCard .dp,
+    .profileCard .dpsw {
+        border-radius: 10px;
+    }
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        border-radius: 10px;
+    }
+
+
+    .profileCard:hover .dp,
+    .profileCard:hover .dpsw {
+        transform: translateY(-60px);
+    }
+
+}

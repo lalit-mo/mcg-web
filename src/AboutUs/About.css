@@ -1,0 +1,30 @@
+/* Ensure the container class is defined */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.au-head{
+    font-family: NRegular;
+    margin-left:5%;
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: #1D133E;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.au-parah{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.infographic {
+  width: 100%; /* Make the infographic span the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px 0; /* Add some margin for spacing */
+}

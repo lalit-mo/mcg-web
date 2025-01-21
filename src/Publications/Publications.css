@@ -1,0 +1,41 @@
+.mainhead-pub{
+    margin-top:5%;
+    margin-left: 5%;
+    font-size: 40px;
+    color: #1D133E;
+    font-family: NRegular;
+}
+
+.container-pub{
+    margin: 5%;
+    border: #1D133E;
+    background-color: #e0eed5;
+    border-radius: 50px;
+}
+
+.text-pub{
+    padding:5%;
+    padding-top: 0;
+}
+.year-pub{
+    padding-left: 5%;
+    padding-top:3%;
+}
+
+.researchHead-pub{
+    margin-top:5%;
+    margin-left: 5%;
+    font-size: 40px;
+    color: #1D133E;
+    font-family: NRegular;
+}
+
+.Pmiddle-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pmidnav{
+    display: flex;
+    justify-content: space-between;
+}

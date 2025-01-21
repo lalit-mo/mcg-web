@@ -1,0 +1,31 @@
+.backcu{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.headcu{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 8%;
+    color: #FCFCFB;
+    font-size: 90px;
+    
+}
+
+.bodycu{
+    display: flex;
+    padding-left: 6%;
+    font-size: 20px;
+    color: #FCFCFB;
+    
+}
+
+.threeBTCU{
+    width:12%;
+    margin-left:5%;
+    margin-top: 9%;
+    
+}
