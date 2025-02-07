@@ -7,9 +7,10 @@ import linkedin from "./Mem-imgs/linkedin.png"
 import mail from "./Mem-imgs/Mail.png"
 import web from "./Mem-imgs/web.png"
 import lalith from "./Mem-imgs/Lalith.jpeg"
+import jayachandran from "./Mem-imgs/jayachandran.jpg"
+import dipansh from "./Mem-imgs/dipansh.jpg"
 import aditya from "./Mem-imgs/Aditya Raghuvanshi profile.jpeg"
 import arghya from "./Mem-imgs/Arghya Roy Dec 18.jpg"
-import aryan from "./Mem-imgs/Aryan Bansal IMG Jul 21.jpg"
 import atharva from "./Mem-imgs/Atharva Gogate.jpg"
 import jatin from "./Mem-imgs/Jatin Passport Photo.jpeg"
 import pavani from "./Mem-imgs/Pavani Chowdary Feb 24 Image.jpeg"
@@ -19,6 +20,10 @@ import utsav from "./Mem-imgs/utsav.jpeg"
 import vedansh from "./Mem-imgs/Vedansh Agrawal Feb 24 Image.jpeg"
 import chinmay from "./Mem-imgs/Chinmay Pateria Jan 30.jpg"
 import jaidev from "./Mem-imgs/Jaidev Shriram profile.png"
+import sriharsha from "./Mem-imgs/sriharsha.jpg"
+import ashvin from "./Mem-imgs/ashvin.png"
+import nikhil from "./Mem-imgs/nikhil.png"
+import sai from "./Mem-imgs/sai.png"
 import sid from "./Alumni-imgs/siddharth.jpeg"
 import dip from "./Alumni-imgs/Dipankar.jpeg"
 import yash from "./Alumni-imgs/yash.png"
@@ -80,6 +85,47 @@ Besides research I also teach courses on Music, Mind and Technology, Behavioral 
                 </div>
 
 
+                {/* S Jayachandran */}
+                <div className='profileCard'>
+                    <div className='prodp'>
+                        <img className='dp' src={jayachandran}></img>
+                    </div>
+                    <div className='caption'>
+                        <h3 className='profname'>S Jayachandran</h3>
+                        <p className='profdesign'>PhD student</p>
+                        <p className='profdesignemail'>jayachandran.s@research.iiit.ac.in</p>
+
+                    </div>
+                    <div className='intro'>
+                        <p>S Jayachandran is an Engineer turned Dancer, Teacher, Choreographer and an Art Researcher. His educational qualifications are B.E. (ECE), Dip. in Saiva Siddhanta, B.A. (History), M. A. (History), M. A. (Philosophy), M. A. (Bharatanatyam), NET qualified. He has served as a software engineer in Wipro Ltd. (2000-2005) Later he served as an Asst. Prof. of Dance in Kalakshetra Foundation, Chennai (2005-2014).</p>
+                    </div>
+                    <div className='links-out'>
+                        <a href=''><img src={linkedin}/></a>
+                    
+                    <a href=""><img src={web}/></a>
+                    </div>
+                </div>
+
+                {/* Dipansh */}
+                <div className='profileCard'>
+                    <div className='prodp'>
+                        <img className='dp' src={dipansh}></img>
+                    </div>
+                    <div className='caption'>
+                        <h3 className='profname'>Dipansh Girdhar</h3>
+                        <p className='profdesign'>MS student</p>
+                        <p className='profdesignemail'>dipansh.girdhar@research.iiit.ac.in</p>
+
+                    </div>
+                    <div className='intro'>
+                        <p>A Data Scientist with 4 years of expertise transforming Text, Crypto, and Healthcare data into actionable insights. National marathoner and innate athlete, seamlessly blending analytical acumen with a passion for endurance sports.</p>
+                    </div>
+                    <div className='links-out'>
+                        <a href='https://www.linkedin.com/in/dipansh-girdhar/'><img src={linkedin}/></a>
+                    
+                    <a href=""><img src={web}/></a>
+                    </div>
+                </div>
 
                 {/* Aditya Raghuvanshi */}
                 <div className='profileCard'>
@@ -126,31 +172,6 @@ Besides research I also teach courses on Music, Mind and Technology, Behavioral 
                 </div>
 
 
-
-                {/* Ayan Bansal */}
-                <div className='profileCard'>
-                    <div className='prodp'>
-                        <img className='dp' src={aryan}></img>
-                    </div>
-                    <div className='caption'>
-                        <h3 className='profname'>Ayan Bansal </h3>
-                        <p className='profdesign'>Dual Degree</p>
-                        <p className='profdesignemail'>aryan.bansal@research.iiit.ac.in</p>
-                    </div>
-                    <div className='intro'>
-                        <p>I am currently enrolled as a B.Tech + MS student in Computer Science at IIIT Hyderabad. Additionally, I hold the position of coordinator within the Gaming Club at IIIT Hyderabad. My research focus lies in exploring the popularity of Gen-Z music.</p>
-                    </div>
-
-                    <div className='links-out'>
-                        <a href='https://www.linkedin.com/in/aryan-bansal-88a6101b1?'><img src={linkedin}/></a>
-                    
-                    <a href="http://www.bansalaryan.com"><img src={web}/></a>
-                    </div>
-                </div>
-
-
-
-
                 {/* Atharva Gogate */}
                 <div className='profileCard'>
                     <div className='prodp'>
@@ -175,13 +196,13 @@ I am a UG2K20 dual degree student pursuing a B.Tech and MS in EC. I love music a
 
 
 
-                {/* Jatin Agarwal */}
+                {/* Jatin Agarwala */}
                 <div className='profileCard'>
                     <div className='prodp'>
                         <img className='dp' src={jatin}></img>
                     </div>
                     <div className='caption'>
-                        <h3 className='profname'>Jatin Agarwal</h3>
+                        <h3 className='profname'>Jatin Agarwala</h3>
                         <p className='profdesign'>Dual Degree</p>
                         <p className='profdesignemail'>jatin.a@research.iiit.ac.in</p>
                     </div>
@@ -336,28 +357,87 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                     </div>
                 </div>
 
-
-
-
-
-                {/* Jaidev Shriram */}
+                {/* Sriharsha M S S */}
                 <div className='profileCard'>
                     <div className='prodp'>
-                        <img className='dp' src={jaidev}></img>
+                        <img className='dp' src={sriharsha}></img>
                     </div>
                     <div className='caption'>
-                        <h3 className='profname'>Jaidev Shriram</h3>
-                        <p className='profdesign'>Alumni</p>
-                        <p className='profdesignemail'>jaidev.shriram@alumni.iiit.ac.in</p>
+                        <h3 className='profname'>Sriharsha M S S</h3>
+                        <p className='profdesign'>Undergraduate</p>
+                        <p className='profdesignemail'>sriharsha.m@students.<br/>iiit.ac.in</p>
                     </div>
                     <div className='intro'>
-                        <p>Jaidev is a second-year master's student at UC San Diego, with broad interests in human-computer interaction and machine learning, focusing on building better creativity tools. In his free time, he listens to Taylor Swift and tries to improve his pasta-making.</p>
+                        <p>I am Sriharsha, a Computer Science student currently in UG-3. My research is part of the Spotify project and involves analysing music listening patterns in the context of depression. Apart from work, I love photography, movies, music, coffee, table tennis and occasionally F1 too :)</p>
                     </div>
 
                     <div className='links-out'>
-                        <a href='https://www.linkedin.com/in/jaidev-shriram/'><img src={linkedin}/></a>
+                        <a href='https://www.linkedin.com/in/sriharsha-medicherla-8b621b25a'><img src={linkedin}/></a>
                     
-                    <a href="https://jaidevshriram.com/"><img src={web}/></a>
+                    <a href=""><img src={web}/></a>
+                    </div>
+                </div>
+
+                {/* Saideekshith V */}
+                <div className='profileCard'>
+                    <div className='prodp'>
+                        <img className='dp' src={sai}></img>
+                    </div>
+                    <div className='caption'>
+                        <h3 className='profname'>Saideekshith V</h3>
+                        <p className='profdesign'>Undergraduate</p>
+                        <p className='profdesignemail'>anil.vaddineni@students.<br/>iiit.ac.in</p>
+                    </div>
+                    <div className='intro'>
+                        <p></p>
+                    </div>
+
+                    <div className='links-out'>
+                        <a href='https://www.linkedin.com/in/saideekshith-vaddineni-1227002a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'><img src={linkedin}/></a>
+                    
+                    <a href=""><img src={web}/></a>
+                    </div>
+                </div>
+
+                {/* Ashvin Vinod Kaimal */}
+                <div className='profileCard'>
+                    <div className='prodp'>
+                        <img className='dp' src={ashvin}></img>
+                    </div>
+                    <div className='caption'>
+                        <h3 className='profname'>Ashvin Vinod K</h3>
+                        <p className='profdesign'>Undergraduate</p>
+                        <p className='profdesignemail'>ashvin.kaimal@students.<br/>iiit.ac.in</p>
+                    </div>
+                    <div className='intro'>
+                        <p>I'm a researcher interested in the psychology of music and its impact on mental health, as well as an avid musician who writes and publishes my art online. Seeking to blend my passion for science, mental health advocacy, and artistic expression.</p>
+                    </div>
+
+                    <div className='links-out'>
+                        <a href='https://www.linkedin.com/in/ashvin-v-kaimal'><img src={linkedin}/></a>
+                    
+                    <a href="https://linktr.ee/AshKaimal"><img src={web}/></a>
+                    </div>
+                </div>
+
+                {/* Nikhil Raj Sriram */}
+                <div className='profileCard'>
+                    <div className='prodp'>
+                        <img className='dp' src={nikhil}></img>
+                    </div>
+                    <div className='caption'>
+                        <h3 className='profname'>Nikhil Raj Sriram</h3>
+                        <p className='profdesign'>Undergraduate</p>
+                        <p className='profdesignemail'>nikhil.sriram@research.<br/>iiit.ac.in</p>
+                    </div>
+                    <div className='intro'>
+                        <p>I like creating amazing experiences for people using computer science and music.</p>
+                    </div>
+
+                    <div className='links-out'>
+                        <a href=''><img src={linkedin}/></a>
+                    
+                    <a href=""><img src={web}/></a>
                     </div>
                 </div>
 
@@ -374,6 +454,35 @@ Currently working on music listening and personality. Prior work in Deep Learnin
 
                     {/* list of alumni */}
 
+                    {/* Prince Varshney */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={jaidev}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Prince Varshney</h3>
+                            <p>IIIT-H : B.Tech and M.S by Research in CSE</p>
+                            <p>Current : Software Engineer at Google</p>
+                        </div>
+                    </div>
+
+
+                    {/* Jaidev Shriram */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={jaidev}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Jaidev Shriram</h3>
+                            <p>IIIT-H : 2018-2022 B.Tech in CSE</p>
+                            <p>Current : Computer Vision Engineer at Plus</p>
+                        </div>
+                    </div>
+
                     {/* Yash Goyal */}
                     <div className='alumni-cards'>
                         <ReactRoundedImage image={yash}
@@ -387,7 +496,6 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                             <p>Current : Amazon Development Center Ireland Ltd.</p>
                         </div>
                     </div>
-
 
 
 
