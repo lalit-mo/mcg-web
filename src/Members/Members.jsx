@@ -456,7 +456,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
 
                     {/* Prince Varshney */}
                     <div className='alumni-cards'>
-                        <ReactRoundedImage image={jaidev}
+                        <ReactRoundedImage image={prince}
                             roundedSize="0"
                             imageWidth="150"
                             imageHeight="150"
