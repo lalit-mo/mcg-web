@@ -11,12 +11,10 @@ import jayachandran from "./Mem-imgs/jayachandran.jpg"
 import dipansh from "./Mem-imgs/dipansh.jpg"
 import aditya from "./Mem-imgs/Aditya Raghuvanshi profile.jpeg"
 import arghya from "./Mem-imgs/Arghya Roy Dec 18.jpg"
-import atharva from "./Mem-imgs/Atharva Gogate.jpg"
 import jatin from "./Mem-imgs/Jatin Passport Photo.jpeg"
 import pavani from "./Mem-imgs/Pavani Chowdary Feb 24 Image.jpeg"
 import pratyaksh from "./Mem-imgs/Pratyaksh Gautam.jpg"
 import prince from "./Mem-imgs/Prince.jpg"
-import utsav from "./Mem-imgs/utsav.jpeg"
 import vedansh from "./Mem-imgs/Vedansh Agrawal Feb 24 Image.jpeg"
 import chinmay from "./Mem-imgs/Chinmay Pateria Jan 30.jpg"
 import jaidev from "./Mem-imgs/Jaidev Shriram profile.png"
@@ -30,6 +28,10 @@ import yash from "./Alumni-imgs/yash.png"
 import aayush from "./Alumni-imgs/aayush.png"
 import ravi from "./Alumni-imgs/gururavi.jpeg"
 import ari from "./Alumni-imgs/arihant.jpeg"
+import yudhik from './Alumni-imgs/yudhik.jpeg'
+import rajat from './Alumni-imgs/rajat.jpeg'
+import ravinder from './Alumni-imgs/ravinder.jpeg'
+import vishnu from './Alumni-imgs/vishnu.jpeg'
 
 function Members() {
   return (
@@ -172,30 +174,6 @@ Besides research I also teach courses on Music, Mind and Technology, Behavioral 
                 </div>
 
 
-                {/* Atharva Gogate */}
-                <div className='profileCard'>
-                    <div className='prodp'>
-                        <img className='dp' src={atharva}></img>
-                    </div>
-                    <div className='caption'>
-                        <h3 className='profname'>Atharva Gogate</h3>
-                        <p className='profdesign'>Dual Degree</p>
-                        <p className='profdesignemail'>atharva.gogate@research.<br/>iiit.ac.in</p>
-                    </div>
-                    <div className='intro'>
-                        <p>Hello!
-I am a UG2K20 dual degree student pursuing a B.Tech and MS in EC. I love music and everything about it, hence my area of research being what it is I describe myself as generally outgoing. I have had formal training in the piano and am learning the bass. I also play badminton, and dabble in a bit of gaming here and there.</p>
-                    </div>
-
-                    <div className='links-out'>
-                        <a href='https://linkedin.com/in/atharva-s-gogate'><img src={linkedin}/></a>
-                    
-                    <a href="https://www.instagram.com/atharvasg_/"><img src={web}/></a>
-                    </div>
-                </div>
-
-
-
                 {/* Jatin Agarwala */}
                 <div className='profileCard'>
                     <div className='prodp'>
@@ -262,54 +240,6 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                     <a href="https://hi-im-buggy.github.io/"><img src={web}/></a>
                     </div>
                 </div>
-
-
-
-
-                {/* Prince Varshney */}
-                <div className='profileCard'>
-                    <div className='prodp'>
-                        <img className='dp' src={prince}></img>
-                    </div>
-                    <div className='caption'>
-                        <h3 className='profname'>Prince Varshney</h3>
-                        <p className='profdesign'>Dual Degree</p>
-                        <p className='profdesignemail'>prince.varshney@research.<br/>iiit.ac.in</p>
-                    </div>
-                    <div className='intro'>
-                        <p>A guy who loves to dance and happens to be interested in computer science. My research focus lies in music induced movements. </p>
-                    </div>
-
-                    <div className='links-out'>
-                        <a href='https://www.linkedin.com/in/prince-varshney-5243a11a3'><img src={linkedin}/></a>
-                    
-                    <a href="https://www.instagram.com/thedanceguy"><img src={web}/></a>
-                    </div>
-                </div>
-
-
-
-                {/* Utsav Shekhar */}
-                <div className='profileCard'>
-                    <div className='prodp'>
-                        <img className='dp' src={utsav}></img>
-                    </div>
-                    <div className='caption'>
-                        <h3 className='profname'>Utsav Shekhar</h3>
-                        <p className='profdesign'>Dual Degree</p>
-                        <p className='profdesignemail'>utsav.shekhar@research.iiit.ac.in</p>
-                    </div>
-                    <div className='intro'>
-                        <p>I am dual degree CLD student in my 3rd year, apart from CS and music I am highly interested in sports especially cricket an football.Combining technology, creativity, and athleticism drives my pursuits.</p>
-                    </div>
-
-                    <div className='links-out'>
-                        <a href='https://www.linkedin.com/in/utsav-shekhar-ab7170224/'><img src={linkedin}/></a>
-                    
-                    <a href="https://www.instagram.com/utsav_shekhar12/"><img src={web}/></a>
-                    </div>
-                </div>
-
 
 
                 {/* Vedansh Agrawal */}
@@ -463,7 +393,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Prince Varshney</h3>
-                            <p>IIIT-H : B.Tech and M.S by Research in CSE</p>
+                            <p>IIIT-H : B.Tech and M.S by Research in Computer Science</p>
                             <p>Current : Software Engineer at Google</p>
                         </div>
                     </div>
@@ -478,7 +408,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Jaidev Shriram</h3>
-                            <p>IIIT-H : 2018-2022 B.Tech in CSE</p>
+                            <p>IIIT-H : B.Tech and MS by Research in Computer Science</p>
                             <p>Current : Computer Vision Engineer at Plus</p>
                         </div>
                     </div>
@@ -492,7 +422,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Yash Goyal</h3>
-                            <p>IIIT-H : B.Tech and M.S by Research in CSE</p>
+                            <p>IIIT-H : B.Tech and M.S by Research in Computer Science</p>
                             <p>Current : Amazon Development Center Ireland Ltd.</p>
                         </div>
                     </div>
@@ -508,7 +438,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Dipankar Niranjan</h3>
-                            <p>IIIT-H : 2014-2019 CSD</p>
+                            <p>IIIT-H : BTech and MS by Research in Computer Science</p>
                             <p>Current : SMTS at Salesforce in SF</p>
                         </div>
                     </div>
@@ -524,7 +454,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Aayush Surana</h3>
-                            <p>IIIT-H : 2015 BTech in ECE</p>
+                            <p>IIIT-H : BTech in ECE</p>
                             <p>Current : Software Engineer at Amazon for Alexa</p>
                         </div>
                     </div>
@@ -542,7 +472,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Siddharth Duwada</h3>
-                            <p>IIIT-H : Btech and MS in ECE</p>
+                            <p>IIIT-H : Btech and MS by Research in ECE</p>
                             <p>Current : working at Savart </p>
                         </div>
                     </div>
@@ -560,7 +490,7 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Guru Ravi Shankar</h3>
-                            <p>IIIT-H : BTech Computer Science + MSc Computational Linguistics</p>
+                            <p>IIIT-H : BTech in Computer Science and MS by Research in Computational Linguistics</p>
                             <p>Current : Software Developer @ Salesforce</p>
                         </div>
                     </div>
@@ -576,22 +506,66 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                         />
                         <div className='alum-info'>
                             <h3 className='alumn-name'>Arihant Jain</h3>
-                            <p>IIIT-H : ECD, Dual degree in ECE</p>
+                            <p>IIIT-H : B.Tech and MS by Research in ECE</p>
                             <p>Current : Software Engineer at Stripe. </p>
                         </div>
                     </div>
 
-
-
-
-
-
-
-                    <div>
-                        
+                    {/* Yudhik Agrawal */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={yudhik}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Yudhik Agrawal</h3>
+                            <p>IIIT-H : B.Tech and MS by Research in Computer Science</p>
+                            <p>Current : Senior Software Engineer at Dynamo AI.</p>
+                        </div>
                     </div>
 
+                    {/* Rajat Agarwal */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={rajat}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Rajat Agarwal</h3>
+                            <p>IIIT-H : MS by Research, Computer Science</p>
+                            <p>Current : Vice President of AI & ML Strategy at Panacea Infosec.</p>
+                        </div>
+                    </div>
 
+                    {/* Ravinder Singh */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={ravinder}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Ravinder Singh</h3>
+                            <p>IIIT-H : MS by Research, Computer Science</p>
+                            <p>Current : Head of Product Engineering at Panacea Infosec.</p>
+                        </div>
+                    </div>
+
+                    {/* Vishnu Moorthigari */}
+                    <div className='alumni-cards'>
+                        <ReactRoundedImage image={vishnu}
+                            roundedSize="0"
+                            imageWidth="150"
+                            imageHeight="150"
+                        />
+                        <div className='alum-info'>
+                            <h3 className='alumn-name'>Vishnu Moorthigari</h3>
+                            <p>IIIT-H : B.Tech in CSE and MS by Research in Computational Humanities</p>
+                            <p>Current : Software Development Engineer at Amazon Web Services (AWS).</p>
+                        </div>
+                    </div>
                 </div>
     </div>
   )
