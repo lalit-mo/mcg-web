@@ -12,6 +12,7 @@ import JandC from './Publications/JandC';
 import PubNav from './Publications/Pub-navbar/PubNav';
 import Present from './Publications/Present';
 import BooknT from './Publications/BooknT';
+import Patents from './Publications/Patents';
 import Talknav from './Talks/Talknav';
 import Contact from './Contactme/Contact';
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/jnc" element={<JandC />} />
         <Route path="/pres" element={<Present />} />
         <Route path="/bnt" element={<BooknT />} />
+        <Route path="/ptnt" element={<Patents />} />
         <Route path="/tnav" element={<Talknav />} />
         <Route path="/cu" element={<Contact />} />
       </Routes>

@@ -31,8 +31,9 @@ const PubNav = ({value}) => {
                 <ul className="Pmidnav">
                     <a  className={currentPath === "/bnt" ? "active" : "notactive"} href="/bnt">Books & Thesis</a>
                 </ul>
-               
-                
+                <ul className="Pmidnav">
+                    <a  className={currentPath === "/ptnt" ? "active" : "notactive"} href="/ptnt">Patents</a>
+                </ul>
             </div>
             
       
