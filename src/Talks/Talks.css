@@ -1,81 +1,147 @@
-.talkmain{
-    /* display: flex; */
-    object-fit:fill;
+/* Base styles to contain all content */
+.talkmain {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
-.talk-list{
-    margin-left: 5%;
-    display:flex;
-    flex-direction: row;
-    margin-top: 5%;
-    text-align: center;
-    margin-right: 5%;
+/* Navigation buttons */
+.talk-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 30px 0;
+  flex-wrap: wrap;
 }
 
-
-
-.pressbtn{
-    text-decoration: none;
-    margin-left: 15%;
-    color: #222628;
-    font-size: 30px;
-    background-color: #B5E571;
-    padding: 20px 30px 20px 30px;
-    border-radius: 50px;
-    margin-top: -10%;
+.pressbtn {
+  text-decoration: none;
+  color: #222628;
+  font-size: 20px; /* Reduced from 30px */
+  background-color: #b5e571;
+  padding: 15px 25px; /* Reduced padding */
+  border-radius: 50px;
+  white-space: nowrap;
 }
 
-.talk-iconn{
-    width: 10%;
-}
-.talk-iconfrsm{
-    width: 7%;
-    border-radius: 50px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.talk-icone{
-    width: 6%;
-    margin-left: 2%;
-    margin-right: 1%;
-}
-.talk-icond{
-    width: 13%;
-    margin-left: -2%;
+/* Sections container */
+.talks-section,
+.keynotes-section,
+.press-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.talk-p{
-    font-family: MR;
-    font-size: 20px;
+/* Year headings */
+.year-talk {
+  font-family: MEB;
+  font-size: 2.5rem; /* Using rem instead of fixed px */
+  margin: 40px 0 20px 0;
+  color: #222628;
 }
 
-.year-talk{
-    margin-left: 5%;
-    margin-top: 9%;
-    font-family: MEB;
-    font-size: 50px;
-    /* color: #608930; */
+/* Talk items */
+.talk-list {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  gap: 20px;
 }
 
-.press-talk{
-    margin-left: 5%;
-    margin-top: 12%;
-    font-family: MEB;
-    font-size: 60px;
-    color: #73A330;
+.talk-iconn {
+  width: 80px; /* Fixed width instead of percentage */
+  min-width: 80px;
 }
 
-.plink{
-    /* text-decoration: none; */
-    color: black;
-    font-family: MM;
-    margin-left: 5%;
+.talk-iconfrsm {
+  width: 60px;
+  min-width: 60px;
+  border-radius: 50px;
 }
 
-.newspapper{
-    margin-left: 5%;
-    margin-top: 7%;
-    font-family: MEB;
-    font-size: 40px;
-    color: #222628;
+.talk-icone {
+  width: 50px;
+  min-width: 50px;
+}
+
+.talk-icond {
+  width: 100px;
+  min-width: 100px;
+}
+
+.talk-p {
+  font-family: MR;
+  font-size: 1rem; /* 16px equivalent */
+  line-height: 1.5;
+}
+
+/* Press section */
+.press-talk {
+  font-family: MEB;
+  font-size: 2.5rem;
+  margin: 60px 0 30px 0;
+  color: #73a330;
+}
+
+.newspapper {
+  font-family: MEB;
+  font-size: 1.8rem;
+  margin: 30px 0 20px 0;
+  color: #222628;
+}
+
+.plink {
+  color: black;
+  font-family: MM;
+  display: block;
+  margin: 15px 0;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .talk-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .talk-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .talk-iconn,
+  .talk-iconfrsm,
+  .talk-icone,
+  .talk-icond {
+    margin-bottom: 15px;
+  }
+
+  .year-talk,
+  .press-talk {
+    font-size: 2rem;
+  }
+
+  .newspapper {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pressbtn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .year-talk,
+  .press-talk {
+    font-size: 1.8rem;
+  }
+
+  .talk-p {
+    font-size: 0.9rem;
+  }
 }
