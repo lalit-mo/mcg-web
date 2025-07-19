@@ -308,27 +308,6 @@ Currently working on music listening and personality. Prior work in Deep Learnin
                     </div>
                 </div>
 
-                {/* Saideekshith V */}
-                <div className='profileCard'>
-                    <div className='prodp'>
-                        <img className='dp' src={sai}></img>
-                    </div>
-                    <div className='caption'>
-                        <h3 className='profname'>Saideekshith V</h3>
-                        <p className='profdesign'>Undergraduate</p>
-                        <p className='profdesignemail'>anil.vaddineni@students.<br/>iiit.ac.in</p>
-                    </div>
-                    <div className='intro'>
-                        <p></p>
-                    </div>
-
-                    <div className='links-out'>
-                        <a href='https://www.linkedin.com/in/saideekshith-vaddineni-1227002a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'><img src={linkedin}/></a>
-                    
-                    <a href=""><img src={web}/></a>
-                    </div>
-                </div>
-
                 {/* Ashvin Vinod Kaimal */}
                 <div className='profileCard'>
                     <div className='prodp'>
