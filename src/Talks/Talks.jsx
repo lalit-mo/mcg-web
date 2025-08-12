@@ -84,16 +84,6 @@ function Talks() {
             McGill Univeristy. Montreal, Canada.
           </p>
         </div>
-
-        <h2 className="year-talk">2014</h2>
-        <div className="talk-list">
-          <img className="talk-iconn" src={frsm} />
-          <p className="talk-p">
-            Alluri, V. (2014). fMRI meets MIR: Neural Correlates of Music and
-            Pleasure Processing During Naturalistic Listening. At 3rd
-            International Symposium Frontiers in Neuroscience. Buzios, Brazil
-          </p>
-        </div>
       </div>
 
       {/* Talks Section */}
@@ -293,6 +283,15 @@ function Talks() {
             Alluri, V. (2014). fMRI meets MIR: Neural Correlates of Music and
             Pleasure Processing During Naturalistic Listening. At 3rd
             International Symposium Frontiers in Neuroscience. Buzios, Brazil.
+          </p>
+        </div>
+
+        <div className="talk-list">
+          <img className="talk-iconn" src={frsm} />
+          <p className="talk-p">
+            Alluri, V. (2014). fMRI meets MIR: Neural Correlates of Music and
+            Pleasure Processing During Naturalistic Listening. At 3rd
+            International Symposium Frontiers in Neuroscience. Buzios, Brazil
           </p>
         </div>
       </div>
