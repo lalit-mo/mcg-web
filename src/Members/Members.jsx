@@ -34,6 +34,10 @@ import ravinder from "./Alumni-imgs/ravinder.jpeg";
 import vishnu from "./Alumni-imgs/vishnu.jpeg";
 import sharon from "./Alumni-imgs/sharon.jpeg";
 import bana from "./Alumni-imgs/bana_pic.jpg";
+import soham from "./Mem-imgs/soham.jpg";
+import shreya from "./Mem-imgs/shreya.jpg";
+import haris from "./Mem-imgs/haris.jpg";
+import jatin_krishna from "./Mem-imgs/jatin-krishna.jpg"
 
 function Members() {
   return (
@@ -453,6 +457,126 @@ function Members() {
 
           <div className="links-out">
             <a href="">
+              <img src={linkedin} />
+            </a>
+
+            <a href="">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+      {/* Sai Shreya Veguru */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={shreya}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Sai Shreya Veguru</h3>
+            <p className="profdesign">M.S by Research</p>
+            <p className="profdesignemail">
+              saishreya.veguru@research.
+              <br />
+              iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/shreya-veguru">
+              <img src={linkedin} />
+            </a>
+
+            <a href="">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+      {/* Krishna Jakka */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={jatin_krishna}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Krishna Jakka</h3>
+            <p className="profdesign">Undergraduate in CSE</p>
+            <p className="profdesignemail">
+              krishna.jakka@students.
+              <br />
+              iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/krishna-jakka-27ab552bb/">
+              <img src={linkedin} />
+            </a>
+
+            <a href="">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+      {/* Shaikh Haris Jamal */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={haris}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Shaikh Haris Jamal</h3>
+            <p className="profdesign">Dual Degree</p>
+            <p className="profdesignemail">
+              shaikh.jamal@research.
+              <br />
+              iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="http://www.linkedin.com/in/shaikh-haris-jamal-a25684286">
+              <img src={linkedin} />
+            </a>
+
+            <a href="">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+      {/* Soham Chatterjee */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={soham}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Soham Chatterjee</h3>
+            <p className="profdesign">Undergraduate in CSE</p>
+            <p className="profdesignemail">
+              soham.chatterjee@students.
+              <br />
+              iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/soham-chatterjee-511150366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               <img src={linkedin} />
             </a>
 
