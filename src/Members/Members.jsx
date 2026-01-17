@@ -37,7 +37,8 @@ import bana from "./Alumni-imgs/bana_pic.jpg";
 import soham from "./Mem-imgs/soham.jpg";
 import shreya from "./Mem-imgs/shreya.jpg";
 import haris from "./Mem-imgs/haris.jpg";
-import jatin_krishna from "./Mem-imgs/jatin-krishna.jpg"
+import jatin_krishna from "./Mem-imgs/jatin-krishna.jpg";
+import abbigail from "./Mem-imgs/abbigail.jpeg";
 
 function Members() {
   return (
@@ -466,7 +467,7 @@ function Members() {
           </div>
         </div>
 
-      {/* Sai Shreya Veguru */}
+        {/* Sai Shreya Veguru */}
         <div className="profileCard">
           <div className="prodp">
             <img className="dp" src={shreya}></img>
@@ -481,8 +482,7 @@ function Members() {
             </p>
           </div>
           <div className="intro">
-            <p>
-            </p>
+            <p></p>
           </div>
 
           <div className="links-out">
@@ -496,7 +496,7 @@ function Members() {
           </div>
         </div>
 
-      {/* Krishna Jakka */}
+        {/* Krishna Jakka */}
         <div className="profileCard">
           <div className="prodp">
             <img className="dp" src={jatin_krishna}></img>
@@ -512,6 +512,9 @@ function Members() {
           </div>
           <div className="intro">
             <p>
+              I am Krishna, a computer science students currently in UG3. I am
+              interested in music psychology. I love playing games, sports and
+              listening to all kinds of music.
             </p>
           </div>
 
@@ -526,7 +529,7 @@ function Members() {
           </div>
         </div>
 
-      {/* Shaikh Haris Jamal */}
+        {/* Shaikh Haris Jamal */}
         <div className="profileCard">
           <div className="prodp">
             <img className="dp" src={haris}></img>
@@ -541,8 +544,7 @@ function Members() {
             </p>
           </div>
           <div className="intro">
-            <p>
-            </p>
+            <p></p>
           </div>
 
           <div className="links-out">
@@ -556,7 +558,7 @@ function Members() {
           </div>
         </div>
 
-      {/* Soham Chatterjee */}
+        {/* Soham Chatterjee */}
         <div className="profileCard">
           <div className="prodp">
             <img className="dp" src={soham}></img>
@@ -572,6 +574,12 @@ function Members() {
           </div>
           <div className="intro">
             <p>
+              I'm a Computer Science undergraduate interested in music cognition
+              and computational approaches to understanding music perception and
+              behavior. I enjoy working at the intersection of data, human
+              cognition, and musical experience. Outside of research, I spend
+              time at the gym, playing basketball, and exploring films and music
+              across genres.
             </p>
           </div>
 
@@ -581,6 +589,47 @@ function Members() {
             </a>
 
             <a href="">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+        {/* Abbigail Fleckenstein */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={abbigail}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Abbigail Fleckenstein</h3>
+            <p className="profdesign">Doctoral Research Fellow</p>
+            <p className="profdesignemail">
+              a.m.fleckenstein@psykologi.
+              <br />
+              uio.no
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+              Abbigail Fleckenstein is a doctoral research fellow at the
+              Department of Psychology at UiO and works at the RITMO Centre
+              under the supervision of Prof. Jonna Vuoskoski. Her doctoral
+              research combines her passions for music psychology and empirical
+              aesthetics by exploring the relationships between different
+              emotional, social, and aesthetic responses to music. During her
+              time at RITMO, she aims to investigate musical experiences
+              considered to be "moving" and "beautiful" and specifically
+              evaluate the social and emotional outcomes of these experiences,
+              as well as the musical and non-musical contributors to these
+              experiences.
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/abbigail-fleckenstein-195883b5/">
+              <img src={linkedin} />
+            </a>
+
+            <a href="https://www.uio.no/ritmo/english/people/phd-fellows/abbigaif/">
               <img src={web} />
             </a>
           </div>
