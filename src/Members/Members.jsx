@@ -482,7 +482,13 @@ function Members() {
             </p>
           </div>
           <div className="intro">
-            <p></p>
+            <p>
+              I am a Master's student in Computer Science with two years of
+              industry experience as a full-stack developer, and a growing
+              curiosity about how people perceive and understand music. Outside
+              of research, I enjoy spending time on handmade crafts and am a
+              self-proclaimed food connoisseur.
+            </p>
           </div>
 
           <div className="links-out">
