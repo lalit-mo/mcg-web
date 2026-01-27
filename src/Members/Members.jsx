@@ -8,7 +8,6 @@ import mail from "./Mem-imgs/Mail.png";
 import web from "./Mem-imgs/web.png";
 import lalith from "./Mem-imgs/Lalith.jpeg";
 import jayachandran from "./Mem-imgs/jayachandran.jpg";
-import dipansh from "./Mem-imgs/dipansh.jpg";
 import aditya from "./Mem-imgs/Aditya Raghuvanshi profile.jpeg";
 import arghya from "./Mem-imgs/Arghya Roy Dec 18.jpg";
 import jatin from "./Mem-imgs/Jatin Passport Photo.jpeg";
@@ -16,12 +15,10 @@ import pavani from "./Mem-imgs/Pavani Chowdary Feb 24 Image.jpeg";
 import pratyaksh from "./Mem-imgs/Pratyaksh Gautam.jpg";
 import prince from "./Mem-imgs/Prince.jpg";
 import vedansh from "./Mem-imgs/Vedansh Agrawal Feb 24 Image.jpeg";
-import chinmay from "./Mem-imgs/Chinmay Pateria Jan 30.jpg";
 import jaidev from "./Mem-imgs/Jaidev Shriram profile.png";
 import sriharsha from "./Mem-imgs/sriharsha.jpg";
 import ashvin from "./Mem-imgs/ashvin.png";
 import nikhil from "./Mem-imgs/nikhil.png";
-import sai from "./Mem-imgs/sai.png";
 import sid from "./Alumni-imgs/siddharth.jpeg";
 import dip from "./Alumni-imgs/Dipankar.jpeg";
 import yash from "./Alumni-imgs/yash.png";
@@ -81,7 +78,7 @@ function Members() {
           </div>
         </div>
 
-        {/* Lalith mohan */}
+        {/* Lalit mohan */}
         <div className="profileCard">
           <div className="prodp">
             <img className="dp" src={lalith}></img>
@@ -112,99 +109,77 @@ function Members() {
           </div>
         </div>
 
-        {/* Dipansh */}
+        {/* Abbigail Fleckenstein */}
         <div className="profileCard">
           <div className="prodp">
-            <img className="dp" src={dipansh}></img>
+            <img className="dp" src={abbigail}></img>
           </div>
           <div className="caption">
-            <h3 className="profname">Dipansh Girdhar</h3>
-            <p className="profdesign">MS student</p>
+            <h3 className="profname">Abbigail Fleckenstein</h3>
+            <p className="profdesign">Doctoral Research Fellow</p>
             <p className="profdesignemail">
-              dipansh.girdhar@research.iiit.ac.in
+              a.m.fleckenstein@psykologi.
+              <br />
+              uio.no
             </p>
           </div>
           <div className="intro">
             <p>
-              A Data Scientist with 4 years of expertise transforming Text,
-              Crypto, and Healthcare data into actionable insights. National
-              marathoner and innate athlete, seamlessly blending analytical
-              acumen with a passion for endurance sports.
+              Abbigail Fleckenstein is a doctoral research fellow at the
+              Department of Psychology at UiO and works at the RITMO Centre
+              under the supervision of Prof. Jonna Vuoskoski. Her doctoral
+              research combines her passions for music psychology and empirical
+              aesthetics by exploring the relationships between different
+              emotional, social, and aesthetic responses to music. During her
+              time at RITMO, she aims to investigate musical experiences
+              considered to be "moving" and "beautiful" and specifically
+              evaluate the social and emotional outcomes of these experiences,
+              as well as the musical and non-musical contributors to these
+              experiences.
             </p>
           </div>
+
           <div className="links-out">
-            <a href="https://www.linkedin.com/in/dipansh-girdhar/">
+            <a href="https://www.linkedin.com/in/abbigail-fleckenstein-195883b5/">
+              <img src={linkedin} />
+            </a>
+
+            <a href="https://www.uio.no/ritmo/english/people/phd-fellows/abbigaif/">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+        {/* Sai Shreya Veguru */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={shreya}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Sai Shreya Veguru</h3>
+            <p className="profdesign">M.S by Research</p>
+            <p className="profdesignemail">
+              saishreya.veguru@research.
+              <br />
+              iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+              I am a Master's student in Computer Science with two years of
+              industry experience as a full-stack developer, and a growing
+              curiosity about how people perceive and understand music. Outside
+              of research, I enjoy spending time on handmade crafts and am a
+              self-proclaimed food connoisseur.
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/shreya-veguru">
               <img src={linkedin} />
             </a>
 
             <a href="">
-              <img src={web} />
-            </a>
-          </div>
-        </div>
-
-        {/* Aditya Raghuvanshi */}
-        <div className="profileCard">
-          <div className="prodp">
-            <img className="dp" src={aditya}></img>
-          </div>
-          <div className="caption">
-            <h3 className="profname">Aditya Raghuvanshi</h3>
-            <p className="profdesign">Dual Degree</p>
-            <p className="profdesignemail">
-              aditya.raghuvanshi@research
-              <br />
-              .iiit.ac.in
-            </p>
-          </div>
-          <div className="intro">
-            <p>
-              I am currently in IIIT Hyderabad, studying B.Tech CSE and MS ( by
-              research ) for Computational Linguistics. Currently more focused
-              on Music Information Retrieval, Artificial Intelligence, Natural
-              Language Processing and Data Science in addition to my pursuits of
-              playing the Drums and engaging in trekking.{" "}
-            </p>
-          </div>
-
-          <div className="links-out">
-            <a href="https://www.linkedin.com/in/aditya-raghuvanshi-502210226/">
-              <img src={linkedin} />
-            </a>
-
-            <a href="https://tanalpha-aditya.github.io">
-              <img src={web} />
-            </a>
-          </div>
-        </div>
-
-        {/* Arghya Roy */}
-        <div className="profileCard">
-          <div className="prodp">
-            <img className="dp" src={arghya}></img>
-          </div>
-          <div className="caption">
-            <h3 className="profname">Arghya Roy</h3>
-            <p className="profdesign">Dual Degree</p>
-            <p className="profdesignemail">arghya.roy@research.iiit.ac.in</p>
-          </div>
-          <div className="intro">
-            <p>
-              Hey! I'm a CHD student exploring genre classification, guided by
-              Profs. Ashwin Jayanti and Vinoo Alluri. I listen to diverse music,
-              ranging from Radiohead to Kanye West to Lana Del Rey, and thrive
-              on psychologically twisted content. Sports, particularly football,
-              basketball, and F1, are my other obsessions. Catch me on campus
-              shooting hoops or jamming on vocals and bass guitar or keys.
-            </p>
-          </div>
-
-          <div className="links-out">
-            <a href="https://www.linkedin.com/in/arghyawning/">
-              <img src={linkedin} />
-            </a>
-
-            <a href="https://www.instagram.com/arghyawning/">
               <img src={web} />
             </a>
           </div>
@@ -297,6 +272,73 @@ function Members() {
           </div>
         </div>
 
+        {/* Aditya Raghuvanshi */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={aditya}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Aditya Raghuvanshi</h3>
+            <p className="profdesign">Dual Degree</p>
+            <p className="profdesignemail">
+              aditya.raghuvanshi@research
+              <br />
+              .iiit.ac.in
+            </p>
+          </div>
+          <div className="intro">
+            <p>
+              I am currently in IIIT Hyderabad, studying B.Tech CSE and MS ( by
+              research ) for Computational Linguistics. Currently more focused
+              on Music Information Retrieval, Artificial Intelligence, Natural
+              Language Processing and Data Science in addition to my pursuits of
+              playing the Drums and engaging in trekking.{" "}
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/aditya-raghuvanshi-502210226/">
+              <img src={linkedin} />
+            </a>
+
+            <a href="https://tanalpha-aditya.github.io">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
+        {/* Arghya Roy */}
+        <div className="profileCard">
+          <div className="prodp">
+            <img className="dp" src={arghya}></img>
+          </div>
+          <div className="caption">
+            <h3 className="profname">Arghya Roy</h3>
+            <p className="profdesign">Dual Degree</p>
+            <p className="profdesignemail">arghya.roy@research.iiit.ac.in</p>
+          </div>
+          <div className="intro">
+            <p>
+              Hey! I'm a CHD student exploring genre classification, guided by
+              Profs. Ashwin Jayanti and Vinoo Alluri. I listen to diverse music,
+              ranging from Radiohead to Kanye West to Lana Del Rey, and thrive
+              on psychologically twisted content. Sports, particularly football,
+              basketball, and F1, are my other obsessions. Catch me on campus
+              shooting hoops or jamming on vocals and bass guitar or keys.
+            </p>
+          </div>
+
+          <div className="links-out">
+            <a href="https://www.linkedin.com/in/arghyawning/">
+              <img src={linkedin} />
+            </a>
+
+            <a href="https://www.instagram.com/arghyawning/">
+              <img src={web} />
+            </a>
+          </div>
+        </div>
+
         {/* Vedansh Agrawal */}
         <div className="profileCard">
           <div className="prodp">
@@ -333,25 +375,24 @@ function Members() {
           </div>
         </div>
 
-        {/* Chinmay Pateria */}
+        {/* Nikhil Raj Sriram */}
         <div className="profileCard">
           <div className="prodp">
-            <img className="dp" src={chinmay}></img>
+            <img className="dp" src={nikhil}></img>
           </div>
           <div className="caption">
-            <h3 className="profname">Chinmay Pateria</h3>
+            <h3 className="profname">Nikhil Raj Sriram</h3>
             <p className="profdesign">Undergraduate</p>
             <p className="profdesignemail">
-              chinmay.pateria@research.
+              nikhil.sriram@research.
               <br />
               iiit.ac.in
             </p>
           </div>
           <div className="intro">
             <p>
-              I'm a student studying Computational linguistics and Music
-              Cognition. I wish to blend language processing with the
-              intricacies of music cognition to explore different subjects.
+              I like creating amazing experiences for people using computer
+              science and music.
             </p>
           </div>
 
@@ -360,7 +401,7 @@ function Members() {
               <img src={linkedin} />
             </a>
 
-            <a href="https://www.instagram.com/chinmay_pateria?igsh=d2VreDdhZzgxOWFo">
+            <a href="">
               <img src={web} />
             </a>
           </div>
@@ -435,29 +476,26 @@ function Members() {
           </div>
         </div>
 
-        {/* Nikhil Raj Sriram */}
+        {/* Shaikh Haris Jamal */}
         <div className="profileCard">
           <div className="prodp">
-            <img className="dp" src={nikhil}></img>
+            <img className="dp" src={haris}></img>
           </div>
           <div className="caption">
-            <h3 className="profname">Nikhil Raj Sriram</h3>
-            <p className="profdesign">Undergraduate</p>
+            <h3 className="profname">Shaikh Haris Jamal</h3>
+            <p className="profdesign">Dual Degree</p>
             <p className="profdesignemail">
-              nikhil.sriram@research.
+              shaikh.jamal@research.
               <br />
               iiit.ac.in
             </p>
           </div>
           <div className="intro">
-            <p>
-              I like creating amazing experiences for people using computer
-              science and music.
-            </p>
+            <p></p>
           </div>
 
           <div className="links-out">
-            <a href="">
+            <a href="http://www.linkedin.com/in/shaikh-haris-jamal-a25684286">
               <img src={linkedin} />
             </a>
 
@@ -467,40 +505,6 @@ function Members() {
           </div>
         </div>
 
-        {/* Sai Shreya Veguru */}
-        <div className="profileCard">
-          <div className="prodp">
-            <img className="dp" src={shreya}></img>
-          </div>
-          <div className="caption">
-            <h3 className="profname">Sai Shreya Veguru</h3>
-            <p className="profdesign">M.S by Research</p>
-            <p className="profdesignemail">
-              saishreya.veguru@research.
-              <br />
-              iiit.ac.in
-            </p>
-          </div>
-          <div className="intro">
-            <p>
-              I am a Master's student in Computer Science with two years of
-              industry experience as a full-stack developer, and a growing
-              curiosity about how people perceive and understand music. Outside
-              of research, I enjoy spending time on handmade crafts and am a
-              self-proclaimed food connoisseur.
-            </p>
-          </div>
-
-          <div className="links-out">
-            <a href="https://www.linkedin.com/in/shreya-veguru">
-              <img src={linkedin} />
-            </a>
-
-            <a href="">
-              <img src={web} />
-            </a>
-          </div>
-        </div>
 
         {/* Krishna Jakka */}
         <div className="profileCard">
@@ -526,35 +530,6 @@ function Members() {
 
           <div className="links-out">
             <a href="https://www.linkedin.com/in/krishna-jakka-27ab552bb/">
-              <img src={linkedin} />
-            </a>
-
-            <a href="">
-              <img src={web} />
-            </a>
-          </div>
-        </div>
-
-        {/* Shaikh Haris Jamal */}
-        <div className="profileCard">
-          <div className="prodp">
-            <img className="dp" src={haris}></img>
-          </div>
-          <div className="caption">
-            <h3 className="profname">Shaikh Haris Jamal</h3>
-            <p className="profdesign">Dual Degree</p>
-            <p className="profdesignemail">
-              shaikh.jamal@research.
-              <br />
-              iiit.ac.in
-            </p>
-          </div>
-          <div className="intro">
-            <p></p>
-          </div>
-
-          <div className="links-out">
-            <a href="http://www.linkedin.com/in/shaikh-haris-jamal-a25684286">
               <img src={linkedin} />
             </a>
 
@@ -595,47 +570,6 @@ function Members() {
             </a>
 
             <a href="">
-              <img src={web} />
-            </a>
-          </div>
-        </div>
-
-        {/* Abbigail Fleckenstein */}
-        <div className="profileCard">
-          <div className="prodp">
-            <img className="dp" src={abbigail}></img>
-          </div>
-          <div className="caption">
-            <h3 className="profname">Abbigail Fleckenstein</h3>
-            <p className="profdesign">Doctoral Research Fellow</p>
-            <p className="profdesignemail">
-              a.m.fleckenstein@psykologi.
-              <br />
-              uio.no
-            </p>
-          </div>
-          <div className="intro">
-            <p>
-              Abbigail Fleckenstein is a doctoral research fellow at the
-              Department of Psychology at UiO and works at the RITMO Centre
-              under the supervision of Prof. Jonna Vuoskoski. Her doctoral
-              research combines her passions for music psychology and empirical
-              aesthetics by exploring the relationships between different
-              emotional, social, and aesthetic responses to music. During her
-              time at RITMO, she aims to investigate musical experiences
-              considered to be "moving" and "beautiful" and specifically
-              evaluate the social and emotional outcomes of these experiences,
-              as well as the musical and non-musical contributors to these
-              experiences.
-            </p>
-          </div>
-
-          <div className="links-out">
-            <a href="https://www.linkedin.com/in/abbigail-fleckenstein-195883b5/">
-              <img src={linkedin} />
-            </a>
-
-            <a href="https://www.uio.no/ritmo/english/people/phd-fellows/abbigaif/">
               <img src={web} />
             </a>
           </div>
