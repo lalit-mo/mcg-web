@@ -491,7 +491,16 @@ function Members() {
             </p>
           </div>
           <div className="intro">
-            <p></p>
+            <p>
+              I am a dual-degree student interested in conducting ecologically
+              valid research, particularly exploring how physiological signals
+              can be used to validate behavioral experiments. I enjoy organizing
+              and managing college fests and clubs and stay actively involved in
+              campus activities. You can usually find me either at one of the
+              campus canteens or walking around campus with purpose. I also
+              listen to a lot of high-energy music, whether while working out or
+              simply moving around campus.
+            </p>
           </div>
 
           <div className="links-out">
@@ -504,7 +513,6 @@ function Members() {
             </a>
           </div>
         </div>
-
 
         {/* Krishna Jakka */}
         <div className="profileCard">
